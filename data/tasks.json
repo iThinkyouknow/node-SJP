@@ -1,0 +1,563 @@
+{
+  "scenario_1": [
+    {
+      "scenario": "scenario_1",
+      "template": "video",
+      "platform": "line",
+      "lang": "ja_JP",
+      "position": 1
+    },
+    {
+      "scenario": "scenario_1",
+      "template": "image",
+      "platform": "facebook",
+      "lang": "ja_JP",
+      "position": 2
+    },
+    {
+      "scenario": "scenario_1",
+      "template": "sticker",
+      "platform": "facebook",
+      "lang": "en_US",
+      "position": 3
+    },
+    {
+      "scenario": "scenario_1",
+      "template": "carousel",
+      "platform": "facebook",
+      "lang": "ja_JP",
+      "position": 4
+    }
+  ],
+  "scenario_2": [
+    {
+      "scenario": "scenario_2",
+      "template": "video",
+      "platform": "facebook",
+      "lang": "en_US",
+      "position": 1
+    },
+    {
+      "scenario": "scenario_2",
+      "template": "image",
+      "platform": "line",
+      "lang": "ja_JP",
+      "position": 2
+    },
+    {
+      "scenario": "scenario_2",
+      "template": "carousel",
+      "platform": "facebook",
+      "lang": "en_US",
+      "position": 3
+    }
+  ],
+  "scenario_3": [
+    {
+      "scenario": "scenario_3",
+      "template": "video",
+      "platform": "line",
+      "lang": "ja_JP",
+      "position": 1
+    },
+    {
+      "scenario": "scenario_3",
+      "template": "image",
+      "platform": "facebook",
+      "lang": "en_US",
+      "position": 2
+    },
+    {
+      "scenario": "scenario_3",
+      "template": "image",
+      "platform": "line",
+      "lang": "en_US",
+      "position": 3
+    }
+  ],
+  "scenario_4": [
+    {
+      "scenario": "scenario_4",
+      "template": "image",
+      "platform": "line",
+      "lang": "en_US",
+      "position": 1
+    },
+    {
+      "scenario": "scenario_4",
+      "template": "text",
+      "platform": "line",
+      "lang": "en_US",
+      "position": 2
+    },
+    {
+      "scenario": "scenario_4",
+      "template": "text",
+      "platform": "facebook",
+      "lang": "en_US",
+      "position": 3
+    },
+    {
+      "scenario": "scenario_4",
+      "template": "carousel",
+      "platform": "facebook",
+      "lang": "ja_JP",
+      "position": 4
+    }
+  ],
+  "scenario_5": [
+    {
+      "scenario": "scenario_5",
+      "template": "audio",
+      "platform": "line",
+      "lang": "ja_JP",
+      "position": 1
+    }
+  ],
+  "scenario_6": [
+    {
+      "scenario": "scenario_6",
+      "template": "image",
+      "platform": "line",
+      "lang": "ja_JP",
+      "position": 1
+    },
+    {
+      "scenario": "scenario_6",
+      "template": "audio",
+      "platform": "line",
+      "lang": "en_US",
+      "position": 2
+    },
+    {
+      "scenario": "scenario_6",
+      "template": "audio",
+      "platform": "line",
+      "lang": "ja_JP",
+      "position": 3
+    },
+    {
+      "scenario": "scenario_6",
+      "template": "audio",
+      "platform": "facebook",
+      "lang": "ja_JP",
+      "position": 4
+    }
+  ],
+  "scenario_7": [
+    {
+      "scenario": "scenario_7",
+      "template": "video",
+      "platform": "line",
+      "lang": "ja_JP",
+      "position": 1
+    }
+  ],
+  "scenario_8": [
+    {
+      "scenario": "scenario_8",
+      "template": "video",
+      "platform": "line",
+      "lang": "en_US",
+      "position": 1
+    },
+    {
+      "scenario": "scenario_8",
+      "template": "image",
+      "platform": "facebook",
+      "lang": "ja_JP",
+      "position": 2
+    },
+    {
+      "scenario": "scenario_8",
+      "template": "sticker",
+      "platform": "line",
+      "lang": "ja_JP",
+      "position": 3
+    }
+  ],
+  "scenario_9": [
+    {
+      "scenario": "scenario_9",
+      "template": "audio",
+      "platform": "line",
+      "lang": "en_US",
+      "position": 1
+    }
+  ],
+  "scenario_10": [
+    {
+      "scenario": "scenario_10",
+      "template": "image",
+      "platform": "line",
+      "lang": "ja_JP",
+      "position": 1
+    },
+    {
+      "scenario": "scenario_10",
+      "template": "carousel",
+      "platform": "facebook",
+      "lang": "en_US",
+      "position": 2
+    }
+  ],
+  "scenario_11": [
+    {
+      "scenario": "scenario_11",
+      "template": "text",
+      "platform": "line",
+      "lang": "ja_JP",
+      "position": 1
+    },
+    {
+      "scenario": "scenario_11",
+      "template": "audio",
+      "platform": "line",
+      "lang": "en_US",
+      "position": 2
+    },
+    {
+      "scenario": "scenario_11",
+      "template": "sticker",
+      "platform": "line",
+      "lang": "en_US",
+      "position": 3
+    }
+  ],
+  "scenario_12": [
+    {
+      "scenario": "scenario_12",
+      "template": "image",
+      "platform": "line",
+      "lang": "ja_JP",
+      "position": 1
+    },
+    {
+      "scenario": "scenario_12",
+      "template": "text",
+      "platform": "line",
+      "lang": "ja_JP",
+      "position": 2
+    },
+    {
+      "scenario": "scenario_12",
+      "template": "sticker",
+      "platform": "facebook",
+      "lang": "ja_JP",
+      "position": 3
+    },
+    {
+      "scenario": "scenario_12",
+      "template": "carousel",
+      "platform": "facebook",
+      "lang": "en_US",
+      "position": 4
+    }
+  ],
+  "scenario_13": [
+    {
+      "scenario": "scenario_13",
+      "template": "text",
+      "platform": "facebook",
+      "lang": "ja_JP",
+      "position": 1
+    },
+    {
+      "scenario": "scenario_13",
+      "template": "audio",
+      "platform": "line",
+      "lang": "en_US",
+      "position": 2
+    },
+    {
+      "scenario": "scenario_13",
+      "template": "audio",
+      "platform": "facebook",
+      "lang": "en_US",
+      "position": 3
+    }
+  ],
+  "scenario_14": [
+    {
+      "scenario": "scenario_14",
+      "template": "video",
+      "platform": "line",
+      "lang": "en_US",
+      "position": 1
+    },
+    {
+      "scenario": "scenario_14",
+      "template": "video",
+      "platform": "facebook",
+      "lang": "ja_JP",
+      "position": 2
+    },
+    {
+      "scenario": "scenario_14",
+      "template": "image",
+      "platform": "facebook",
+      "lang": "en_US",
+      "position": 3
+    },
+    {
+      "scenario": "scenario_14",
+      "template": "sticker",
+      "platform": "line",
+      "lang": "en_US",
+      "position": 4
+    },
+    {
+      "scenario": "scenario_14",
+      "template": "carousel",
+      "platform": "facebook",
+      "lang": "en_US",
+      "position": 5
+    }
+  ],
+  "scenario_15": [
+    {
+      "scenario": "scenario_15",
+      "template": "video",
+      "platform": "facebook",
+      "lang": "ja_JP",
+      "position": 1
+    },
+    {
+      "scenario": "scenario_15",
+      "template": "text",
+      "platform": "line",
+      "lang": "en_US",
+      "position": 2
+    },
+    {
+      "scenario": "scenario_15",
+      "template": "sticker",
+      "platform": "line",
+      "lang": "en_US",
+      "position": 3
+    }
+  ],
+  "scenario_16": [
+    {
+      "scenario": "scenario_16",
+      "template": "text",
+      "platform": "line",
+      "lang": "en_US",
+      "position": 1
+    },
+    {
+      "scenario": "scenario_16",
+      "template": "video",
+      "platform": "line",
+      "lang": "ja_JP",
+      "position": 2
+    }
+  ],
+  "scenario_17": [
+    {
+      "scenario": "scenario_17",
+      "template": "image",
+      "platform": "facebook",
+      "lang": "en_US",
+      "position": 1
+    },
+    {
+      "scenario": "scenario_17",
+      "template": "audio",
+      "platform": "facebook",
+      "lang": "ja_JP",
+      "position": 2
+    },
+    {
+      "scenario": "scenario_17",
+      "template": "audio",
+      "platform": "line",
+      "lang": "ja_JP",
+      "position": 3
+    }
+  ],
+  "scenario_18": [
+    {
+      "scenario": "scenario_18",
+      "template": "button",
+      "platform": "facebook",
+      "lang": "en_US",
+      "position": 1
+    },
+    {
+      "scenario": "scenario_18",
+      "template": "audio",
+      "platform": "line",
+      "lang": "en_US",
+      "position": 2
+    },
+    {
+      "scenario": "scenario_18",
+      "template": "text",
+      "platform": "line",
+      "lang": "ja_JP",
+      "position": 3
+    },
+    {
+      "scenario": "scenario_18",
+      "template": "button",
+      "platform": "facebook",
+      "lang": "ja_JP",
+      "position": 4
+    }
+  ],
+  "scenario_19": [
+    {
+      "scenario": "scenario_19",
+      "template": "video",
+      "platform": "facebook",
+      "lang": "ja_JP",
+      "position": 1
+    },
+    {
+      "scenario": "scenario_19",
+      "template": "video",
+      "platform": "line",
+      "lang": "ja_JP",
+      "position": 2
+    },
+    {
+      "scenario": "scenario_19",
+      "template": "sticker",
+      "platform": "facebook",
+      "lang": "ja_JP",
+      "position": 3
+    },
+    {
+      "scenario": "scenario_19",
+      "template": "carousel",
+      "platform": "facebook",
+      "lang": "en_US",
+      "position": 4
+    }
+  ],
+  "scenario_20": [
+    {
+      "scenario": "scenario_20",
+      "template": "image",
+      "platform": "facebook",
+      "lang": "en_US",
+      "position": 1
+    },
+    {
+      "scenario": "scenario_20",
+      "template": "sticker",
+      "platform": "line",
+      "lang": "en_US",
+      "position": 2
+    }
+  ],
+  "scenario_21": [
+    {
+      "scenario": "scenario_21",
+      "template": "button",
+      "platform": "facebook",
+      "lang": "en_US",
+      "position": 1
+    },
+    {
+      "scenario": "scenario_21",
+      "template": "button",
+      "platform": "facebook",
+      "lang": "en_US",
+      "position": 2
+    },
+    {
+      "scenario": "scenario_21",
+      "template": "image",
+      "platform": "facebook",
+      "lang": "en_US",
+      "position": 3
+    },
+    {
+      "scenario": "scenario_21",
+      "template": "button",
+      "platform": "facebook",
+      "lang": "ja_JP",
+      "position": 4
+    }
+  ],
+  "scenario_22": [
+    {
+      "scenario": "scenario_22",
+      "template": "video",
+      "platform": "line",
+      "lang": "ja_JP",
+      "position": 1
+    },
+    {
+      "scenario": "scenario_22",
+      "template": "audio",
+      "platform": "line",
+      "lang": "ja_JP",
+      "position": 2
+    }
+  ],
+  "scenario_23": [
+    {
+      "scenario": "scenario_23",
+      "template": "audio",
+      "platform": "facebook",
+      "lang": "ja_JP",
+      "position": 1
+    },
+    {
+      "scenario": "scenario_23",
+      "template": "video",
+      "platform": "line",
+      "lang": "en_US",
+      "position": 2
+    },
+    {
+      "scenario": "scenario_23",
+      "template": "video",
+      "platform": "line",
+      "lang": "ja_JP",
+      "position": 3
+    },
+    {
+      "scenario": "scenario_23",
+      "template": "audio",
+      "platform": "line",
+      "lang": "ja_JP",
+      "position": 4
+    }
+  ],
+  "scenario_z": [
+    {
+      "scenario": "scenario_z",
+      "template": "button",
+      "platform": "facebook",
+      "lang": "en_US",
+      "position": 1
+    },
+    {
+      "scenario": "scenario_z",
+      "template": "text",
+      "platform": "line",
+      "lang": "en_US",
+      "position": 2
+    },
+    {
+      "scenario": "scenario_z",
+      "template": "sticker",
+      "platform": "facebook",
+      "lang": "en_US",
+      "position": 3
+    }
+  ],
+  "scenario_x": [
+    {
+      "scenario": "scenario_x",
+      "template": "audio",
+      "platform": "facebook",
+      "lang": "en_US",
+      "position": 1
+    }
+  ]
+}
