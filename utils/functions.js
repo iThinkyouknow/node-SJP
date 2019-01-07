@@ -57,7 +57,7 @@ const jsonStringify = replacer => space => value => {
 
 // string at end for easier compose
 const jsonParse = reviver => string => {
-    if (!isString(string)) throw "Buddy, pass in a valid JSON string";
+    if (!isString(string)) throw `Buddy, pass in a valid JSON string: ${string}`;
     try {
         return JSON.parse(string, reviver);
     } catch (error) {
@@ -80,6 +80,11 @@ const getTasksWAutoScenarioPos = scenarios_array => {
         }));
         return acc;
     }, {});
+};
+
+const getLastFieldFromStringSegments = separator => str => {
+    const segments_arr = str.split(separator);
+    return segments_arr[segments_arr.length - 1];
 }
 
 
@@ -96,5 +101,7 @@ module.exports = {
     jsonParse,
     getJsonFromBuffer,
     compose,
-    getJsonFromBuffer
+    getJsonFromBuffer,
+    getTasksWAutoScenarioPos,
+    getLastFieldFromStringSegments
 };
