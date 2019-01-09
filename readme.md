@@ -18,7 +18,16 @@ node index.js
 ```
 The port is `8000`.  
 You can change it in the lib/config.js if you so desire.  
-  
+
+### 2. Use the server
+You may wish to use the script provided to run all the requests automagically.  
+```
+scripts/test_server.sh
+```
+Permissions modification on that file may be required.  
+
+Else,  
+You can hit the server manually:  
 It contains the following the requests to the server:  
 Eg. http://localhost:8000  
 GET the frontend (not done, will only see a React default page)  
