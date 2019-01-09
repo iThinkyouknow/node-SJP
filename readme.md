@@ -30,9 +30,8 @@ opeator = {and, or}
   
 
 ##### GET scenarios sorted by field
-http://localhost:8000/api/scenarios?orderField=template&sortType=asc  
-  
 ```
+http://localhost:8000/api/scenarios?orderField=template&sortType=asc  
 orderField = {template, platform, lang}  
 sortType = {asc, desc}
 ```
