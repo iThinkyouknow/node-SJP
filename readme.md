@@ -1,7 +1,6 @@
 # Node App
 
 ## Server
-To Run, you may use the test script provided:
 
 ### Mock Data
 A script is provided to generate mock data.  
