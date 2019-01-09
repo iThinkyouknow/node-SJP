@@ -1,0 +1,69 @@
+{
+    "serverListeningOnPort": "The server is listening on port ${port} in ${envName} mode now",
+    "SocialJPAssessment": "Social-JP-Assessment",
+    "ContentType": "Content-Type",
+    "XPoweredBy": "X-Powered-By",
+    "queryObjParams": {
+        "filterValue": "filterValue",
+        "orderField": "orderField"
+    },
+    "orderFields": {
+        "name": "name"
+    },
+    "filePaths": {
+        "frontend_build": "/frontend/build",
+        "index_html": "/frontend/build/index.html"
+    },
+    "contentTypes": {
+        "json": "application/json",
+        "map": "application/json",
+        "html": "text/html",
+        "js": "text/javascript",
+        "css": "text/css",
+        "jpg": "image/jpeg",
+        "png": "image/png",
+        "ico": "image/x-icon",
+        "svg": "image/svg+xml",
+        "default": "text/plain"
+    },
+    "sortTypes": {
+        "asc": "asc",
+        "desc": "desc"
+    },
+    "allowedTemplates": {
+        "facebook": {
+            "text": "text",
+            "image": "image",
+            "video": "video",
+            "audio": "audio",
+            "button": "button",
+            "sticker": "sticker",
+            "carousel": "carousel"
+        },
+        "line": {
+            "text": "text",
+            "image": "image",
+            "video": "video",
+            "audio": "audio",
+            "sticker": "sticker"
+        }
+    },
+    "filterOperators": {
+        "and": "and",
+        "or": "or"
+    },
+    "errMessages": {
+        
+        "errHtml": "<html><body><h1>Something went wrong!</h1></body></html>",
+        "objNotValidJsonString": "Obj did not result in valid json string:",
+        "invalidScenarioID": "scenario id is invalid",
+        "invalidSortType": "sortType must be \"asc\" or \"desc\"",
+        "invalidFilterType": "filterValue must be type string and not",
+        "invalidTemplate": "The \"template\": \"${template}\" is not allowed for \"platform\": \"${platform}",
+        "existingScenarioName": "scenario with same name already exists! Please use a different name (case insensitive)",
+        "nonExistingScenarioID": "scenario: ${scenarioID} does not exist. You can try adding a new scenario",
+        "moreThan1Sticker": "You cannot have more than 1 task of template: \"sticker\"",
+        "carouselNotLast": "Template: \"carousel\" must be the last task",
+        "unableToAddTasks": "Unable to add more tasks to this scenario. Try a different scenario"
+    }
+}

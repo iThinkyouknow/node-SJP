@@ -20,6 +20,8 @@ const isPresentType = (type) => (value) => {
     }
 };
 
+const isNotUndefined = val => val !== undefined;
+
 const isNumber = isPresentType('number');
 const isArray = isPresentType('array');
 const isString = isPresentType('string');
@@ -96,6 +98,7 @@ module.exports = {
     isObject,
     isBoolean,
     isFunction,
+    isNotUndefined,
     get,
     jsonStringify,
     jsonParse,

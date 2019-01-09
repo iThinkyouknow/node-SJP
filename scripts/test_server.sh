@@ -20,56 +20,64 @@ const errHandler = err => {
 
 };
 
-http.get('http://localhost:8000/manifest.json', res => {
-    if (res.statusCode === 200) {
-        let body = [];
-        res.on('data', (chunk) => body.push(chunk));
-        res.on('end', _ => {
-            const body_json = jsonParse()(Buffer.concat(body).toString());
+const getManifestJson = () => {
+    http.get('http://localhost:8000/manifest.json', res => {
+        if (res.statusCode === 200) {
+            let body = [];
+            res.on('data', (chunk) => body.push(chunk));
+            res.on('end', _ => {
+                const body_json = jsonParse()(Buffer.concat(body).toString());
 
-            assert.ok(body_json, body_json);
-            log('Manifest.json GOTTEN SUCCESSFULLY');
-        })
-        res.on('err', err => errHandler(`err: ${err}`));
+                assert.ok(body_json, body_json);
+                log('Manifest.json GOTTEN SUCCESSFULLY');
+            })
+            res.on('err', err => errHandler(`err: ${err}`));
 
-    } else {
-        errHandler(`err: ${res.statusCode}`);
-    }
-}).on('error', errHandler);
+        } else {
+            errHandler(`err: ${res.statusCode}`);
+        }
+    }).on('error', errHandler);
+};
 
-http.get('http://localhost:8000/favicon.ico', res => {
-    if (res.statusCode === 200) {
-        let body = [];
-        res.on('data', (chunk) => body.push(chunk));
-        res.on('end', _ => {
-            const dataBuffer = Buffer.concat(body);
-            assert.ok(dataBuffer, dataBuffer);
-            log('favicon.ico GOTTEN SUCCESSFULLY');
-        })
-        res.on('err', err => errHandler(`err: ${err}`));
+const getFavIcon = () => {
+    http.get('http://localhost:8000/favicon.ico', res => {
+        if (res.statusCode === 200) {
+            let body = [];
+            res.on('data', (chunk) => body.push(chunk));
+            res.on('end', _ => {
+                const dataBuffer = Buffer.concat(body);
+                assert.ok(dataBuffer, dataBuffer);
+                log('favicon.ico GOTTEN SUCCESSFULLY');
+            })
+            res.on('err', err => errHandler(`err: ${err}`));
 
-    } else {
-        errHandler(`err: ${res.statusCode}`);
-    }
-}).on('error', errHandler);
+        } else {
+            errHandler(`err: ${res.statusCode}`);
+        }
+    }).on('error', errHandler);
+}
 
-// REACT APP GOTTEN SUCCESSFULLY
-http.get('http://localhost:8000/', res => {
-    if (res.statusCode === 200) {
-        let body = [];
-        res.on('data', (chunk) => body.push(chunk));
-        res.on('end', _ => {
-            const body_str = Buffer.concat(body).toString();
 
-            assert.ok(body_str, body_str);
-            log('REACT APP GOTTEN SUCCESSFULLY');
-        })
-        res.on('err', err => errHandler(`err: ${err}`));
+const getReactApp = () => {
+    // REACT APP GOTTEN SUCCESSFULLY
+    http.get('http://localhost:8000/', res => {
+        if (res.statusCode === 200) {
+            let body = [];
+            res.on('data', (chunk) => body.push(chunk));
+            res.on('end', _ => {
+                const body_str = Buffer.concat(body).toString();
 
-    } else {
-        errHandler(`err: ${res.statusCode}`);
-    }
-}).on('error', errHandler)
+                assert.ok(body_str, body_str);
+                log('REACT APP GOTTEN SUCCESSFULLY');
+            })
+            res.on('err', err => errHandler(`err: ${err}`));
+
+        } else {
+            errHandler(`err: ${res.statusCode}`);
+        }
+    }).on('error', errHandler);
+}
+
 
 // api testing
 
@@ -309,14 +317,21 @@ const getAllScenariosByTemplateDesc = () => {
 }
 
 // other conditions: and, or, and-or, or-and
-
 delScenarioTest();
-addScenarioTest();
-getAllScenarios();
-getScenariosByFilter();
-getScenariosByFilterFBOrCarouselAndEN();
-getScenariosByTemplate();
-getAllScenariosByTemplateDesc();
+setTimeout(() => {
+    [
+        getManifestJson,
+        getFavIcon,
+        getReactApp,
+        addScenarioTest,
+        getAllScenarios,
+        getScenariosByFilter,
+        getScenariosByFilterFBOrCarouselAndEN,
+        getScenariosByTemplate,
+        getAllScenariosByTemplateDesc
+    ].forEach(fn => fn());
+}, 500);
+
 
 setTimeout(delScenarioTest, 1000);
 
