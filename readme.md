@@ -17,31 +17,35 @@ GET the assets from React FrontEnd
 
 #### Api
 ##### GET all scenarios  
-Eg. http://localhost:8000/api/scenarios  
+Eg. `http://localhost:8000/api/scenarios`
 
 ###### GET scenarios by filter
-Eg. http://localhost:8000/api/scenarios?filterValue=facebook-and-carousel-and-en_US  
+`Eg. http://localhost:8000/api/scenarios?filterValue=facebook-and-carousel-and-en_US`
 
+```
 filterValue format = param-operator-param  
 param = any of template, platform, or lang  
-opeator = {and, or}  
+opeator = {and, or}
+```
   
 
 ##### GET scenarios sorted by field
-http://localhost:8000/api/scenarios?orderField=template&sortType=asc
-
-orderField = {template, platform, lang}
+http://localhost:8000/api/scenarios?orderField=template&sortType=asc  
+  
+```
+orderField = {template, platform, lang}  
 sortType = {asc, desc}
-
-DELETE scenario
-/api/scenario/scenario_test/{scenario_id}
-Eg. 
-```
-METHOD: DELETE
-http://localhost:8000/api/scenario/scenario_test/scenario_test
 ```
 
-POST add new scenario with tasks
+##### DELETE scenario
+/api/scenario/scenario_test/{scenario_id}  
+Eg.  
+```
+METHOD: DELETE  
+http://localhost:8000/api/scenario/scenario_test/scenario_test  
+```
+
+##### POST add new scenario with tasks
 Eg:
 ```
 url: /api/scenarios/add
@@ -66,7 +70,7 @@ body: "{
     }"
 ```
 
-POST add new tasks
+##### POST add new tasks
 Eg.
 ```
 url: /api/tasks/add
