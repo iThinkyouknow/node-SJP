@@ -13,6 +13,7 @@ const senario_num = 3;
 ```
 
 ### 1. Start the server
+It runs on Node 10.15.0
 ```
 node index.js
 ```
