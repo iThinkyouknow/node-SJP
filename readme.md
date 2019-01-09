@@ -1,6 +1,7 @@
 # Node App
 
 ## Server
+A Node.js Server written without frameworks
 
 ### Mock Data
 A script is provided to generate mock data.  
