@@ -3,6 +3,15 @@
 ## Server
 To Run, you may use the test script provided:
 
+### Mock Data
+A script is provided to generate mock data.  
+You may generate any number of scenarios that you want by modifying the scenario_num constants on line 7
+```
+node scripts/make_mock_data.js
+
+const senario_num = 3;
+```
+
 ### 1. Start the server
 ```
 node index.js
@@ -10,7 +19,7 @@ node index.js
 The port is `8000`.  
 You can change it in the lib/config.js if you so desire.  
   
-It contains the following the request to the server:  
+It contains the following the requests to the server:  
 Eg. http://localhost:8000  
 GET the frontend (not done, will only see a React default page)  
 GET the assets from React FrontEnd  
